@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppLinksSample</string>
+    <string name="deep_link_host_java">www.androidinformative.com</string>
+    <string name="deep_link_scheme">http</string>
+    <string name="deep_link_host_kotlin">www.androidinformative.com</string>
+    <string name="path_kotlin">/app-links-in-android</string>
+    <string name="path_java">/deep-linking-in-android</string>
+</resources>

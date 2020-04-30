@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sarabjit.blog.applinkssample">
+
+    <application>
+
+        <activity
+            android:name=".activity.AppLinkHandlingActivity"
+            android:launchMode="singleTask">
+
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/deep_link_host_kotlin"
+                    android:path="@string/path_kotlin"
+                    android:scheme="@string/deep_link_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
